@@ -17,6 +17,6 @@ export default defineConfig({
     }
   },
    ssr: {
-      noExternal: '@oku-ui/motion'
+      noExternal: true
    }
 })
