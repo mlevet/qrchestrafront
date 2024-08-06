@@ -15,5 +15,8 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       process: "process/browser"
     }
-  }
+  },
+   ssr: {
+      noExternal: '@oku-ui/motion'
+   }
 })
