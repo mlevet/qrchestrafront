@@ -10,6 +10,7 @@
     "start": "vue-cli-service build --mode development"
   },
   "dependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
     "@vue/compiler-sfc": "^3.4.36",
     "axios": "^1.7.3",
     "bootstrap": "^5.3.3",
